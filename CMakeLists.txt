@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.14)
+project(qt_test)
+add_executable(qt_test test.cc)
+set(CMAKE_AUTOMOC ON)
+include(cmake/CPM.cmake)
+find_package(Qt6 REQUIRED COMPONENTS Core)
+target_link_libraries(qt_test PRIVATE  Qt6::Core)  
