@@ -1,0 +1,3 @@
+/home/sgdsg/projects/qt_test/build-clang/CMakeFiles/qt_test.dir
+/home/sgdsg/projects/qt_test/build-clang/CMakeFiles/edit_cache.dir
+/home/sgdsg/projects/qt_test/build-clang/CMakeFiles/rebuild_cache.dir

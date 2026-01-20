@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/sgdsg/projects/qt_test/build-clang/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

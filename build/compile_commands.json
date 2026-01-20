@@ -1,0 +1,50 @@
+[
+{
+  "directory": "/home/sgdsg/projects/qt_test/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_WEBSOCKETS_LIB -I/home/sgdsg/projects/qt_test/build/qt_test_autogen/include -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtWebSockets -isystem /usr/include/qt6/QtNetwork -g -mno-direct-extern-access -o CMakeFiles/qt_test.dir/qt_test_autogen/mocs_compilation.cpp.o -c /home/sgdsg/projects/qt_test/build/qt_test_autogen/mocs_compilation.cpp",
+  "file": "/home/sgdsg/projects/qt_test/build/qt_test_autogen/mocs_compilation.cpp",
+  "output": "CMakeFiles/qt_test.dir/qt_test_autogen/mocs_compilation.cpp.o"
+},
+{
+  "directory": "/home/sgdsg/projects/qt_test/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_WEBSOCKETS_LIB -I/home/sgdsg/projects/qt_test/build/qt_test_autogen/include -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtWebSockets -isystem /usr/include/qt6/QtNetwork -g -mno-direct-extern-access -o CMakeFiles/qt_test.dir/main.cc.o -c /home/sgdsg/projects/qt_test/main.cc",
+  "file": "/home/sgdsg/projects/qt_test/main.cc",
+  "output": "CMakeFiles/qt_test.dir/main.cc.o"
+},
+{
+  "directory": "/home/sgdsg/projects/qt_test/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_WEBSOCKETS_LIB -I/home/sgdsg/projects/qt_test/build/qt_test_autogen/include -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtWebSockets -isystem /usr/include/qt6/QtNetwork -g -mno-direct-extern-access -o CMakeFiles/qt_test.dir/WebSocketManager.cc.o -c /home/sgdsg/projects/qt_test/WebSocketManager.cc",
+  "file": "/home/sgdsg/projects/qt_test/WebSocketManager.cc",
+  "output": "CMakeFiles/qt_test.dir/WebSocketManager.cc.o"
+},
+{
+  "directory": "/home/sgdsg/projects/qt_test/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_WEBSOCKETS_LIB -I/home/sgdsg/projects/qt_test/build/qt_test_autogen/include -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtWebSockets -isystem /usr/include/qt6/QtNetwork -g -mno-direct-extern-access -o CMakeFiles/qt_test.dir/WebSocketServer.cc.o -c /home/sgdsg/projects/qt_test/WebSocketServer.cc",
+  "file": "/home/sgdsg/projects/qt_test/WebSocketServer.cc",
+  "output": "CMakeFiles/qt_test.dir/WebSocketServer.cc.o"
+},
+{
+  "directory": "/home/sgdsg/projects/qt_test/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_WEBSOCKETS_LIB -I/home/sgdsg/projects/qt_test/build/qt_test_autogen/include -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtWebSockets -isystem /usr/include/qt6/QtNetwork -g -mno-direct-extern-access -o CMakeFiles/qt_test.dir/SignalManager.cc.o -c /home/sgdsg/projects/qt_test/SignalManager.cc",
+  "file": "/home/sgdsg/projects/qt_test/SignalManager.cc",
+  "output": "CMakeFiles/qt_test.dir/SignalManager.cc.o"
+},
+{
+  "directory": "/home/sgdsg/projects/qt_test/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_WEBSOCKETS_LIB -I/home/sgdsg/projects/qt_test/build/qt_test_autogen/include -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtWebSockets -isystem /usr/include/qt6/QtNetwork -g -mno-direct-extern-access -o CMakeFiles/qt_test.dir/SignalConfig.cc.o -c /home/sgdsg/projects/qt_test/SignalConfig.cc",
+  "file": "/home/sgdsg/projects/qt_test/SignalConfig.cc",
+  "output": "CMakeFiles/qt_test.dir/SignalConfig.cc.o"
+},
+{
+  "directory": "/home/sgdsg/projects/qt_test/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_WEBSOCKETS_LIB -I/home/sgdsg/projects/qt_test/build/qt_test_autogen/include -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtWebSockets -isystem /usr/include/qt6/QtNetwork -g -mno-direct-extern-access -o CMakeFiles/qt_test.dir/SinGenerator.cc.o -c /home/sgdsg/projects/qt_test/SinGenerator.cc",
+  "file": "/home/sgdsg/projects/qt_test/SinGenerator.cc",
+  "output": "CMakeFiles/qt_test.dir/SinGenerator.cc.o"
+},
+{
+  "directory": "/home/sgdsg/projects/qt_test/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_WEBSOCKETS_LIB -I/home/sgdsg/projects/qt_test/build/qt_test_autogen/include -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtWebSockets -isystem /usr/include/qt6/QtNetwork -g -mno-direct-extern-access -o CMakeFiles/qt_test.dir/FFTGenerator.cc.o -c /home/sgdsg/projects/qt_test/FFTGenerator.cc",
+  "file": "/home/sgdsg/projects/qt_test/FFTGenerator.cc",
+  "output": "CMakeFiles/qt_test.dir/FFTGenerator.cc.o"
+}
+]

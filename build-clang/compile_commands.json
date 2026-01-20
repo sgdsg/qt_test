@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/sgdsg/projects/qt_test/build-clang",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_NO_DEBUG -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib/qt6/mkspecs/linux-g++ -fno-direct-access-external-data -o CMakeFiles/qt_test.dir/test.cc.o -c /home/sgdsg/projects/qt_test/test.cc",
+  "file": "/home/sgdsg/projects/qt_test/test.cc",
+  "output": "CMakeFiles/qt_test.dir/test.cc.o"
+}
+]
