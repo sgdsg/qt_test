@@ -1,7 +1,8 @@
 /home/sgdsg/projects/qt_test/build/qt_test_autogen/EWIEGA46WW/moc_WebSocketManager.cpp: /home/sgdsg/projects/qt_test/WebSocketManager.h \
   /home/sgdsg/projects/qt_test/build/qt_test_autogen/moc_predefs.h \
+  /home/sgdsg/projects/qt_test/ComponentInterface.h \
+  /home/sgdsg/projects/qt_test/ConfigManager.h \
   /home/sgdsg/projects/qt_test/FFTGenerator.h \
-  /home/sgdsg/projects/qt_test/SignalConfig.h \
   /home/sgdsg/projects/qt_test/SinGenerator.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \

@@ -7,7 +7,7 @@
 #include <qcontainerfwd.h>
 #include <vector>
 #include <QVector>
-#include "SignalConfig.h"
+#include "ConfigManager.h"
 
 class SignalManager {
 public:

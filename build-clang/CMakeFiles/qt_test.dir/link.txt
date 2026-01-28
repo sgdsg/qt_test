@@ -1,1 +1,1 @@
-/usr/bin/clang++ -Xlinker --dependency-file=CMakeFiles/qt_test.dir/link.d CMakeFiles/qt_test.dir/test.cc.o -o qt_test  /usr/lib/libQt6Core.so.6.10.1
+/usr/bin/clang++ -Xlinker --dependency-file=CMakeFiles/qt_test.dir/link.d CMakeFiles/qt_test.dir/qt_test_autogen/mocs_compilation.cpp.o CMakeFiles/qt_test.dir/main.cc.o -o qt_test  -Wl,-rpath,/home/sgdsg/.local/lib /home/sgdsg/.local/lib/liblib_test.so /usr/lib/libQt6WebSockets.so.6.10.1 -lfftw3 /usr/lib/libQt6Network.so.6.10.1 /usr/lib/libQt6Core.so.6.10.1

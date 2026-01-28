@@ -76,21 +76,24 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/qt_test.dir/clean
+clean: CMakeFiles/qt_test_autogen_timestamp_deps.dir/clean
+clean: CMakeFiles/qt_test_autogen.dir/clean
 .PHONY : clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/qt_test.dir
 
 # All Build rule for target.
-CMakeFiles/qt_test.dir/all:
+CMakeFiles/qt_test.dir/all: CMakeFiles/qt_test_autogen_timestamp_deps.dir/all
+CMakeFiles/qt_test.dir/all: CMakeFiles/qt_test_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_test.dir/build.make CMakeFiles/qt_test.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_test.dir/build.make CMakeFiles/qt_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/sgdsg/projects/qt_test/build-clang/CMakeFiles --progress-num=1,2 "Built target qt_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/sgdsg/projects/qt_test/build-clang/CMakeFiles --progress-num=1,2,3,4 "Built target qt_test"
 .PHONY : CMakeFiles/qt_test.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/qt_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sgdsg/projects/qt_test/build-clang/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sgdsg/projects/qt_test/build-clang/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/qt_test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/sgdsg/projects/qt_test/build-clang/CMakeFiles 0
 .PHONY : CMakeFiles/qt_test.dir/rule
@@ -100,15 +103,79 @@ qt_test: CMakeFiles/qt_test.dir/rule
 .PHONY : qt_test
 
 # codegen rule for target.
-CMakeFiles/qt_test.dir/codegen:
+CMakeFiles/qt_test.dir/codegen: CMakeFiles/qt_test_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_test.dir/build.make CMakeFiles/qt_test.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/sgdsg/projects/qt_test/build-clang/CMakeFiles --progress-num=1,2 "Finished codegen for target qt_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/sgdsg/projects/qt_test/build-clang/CMakeFiles --progress-num=1,2,3,4 "Finished codegen for target qt_test"
 .PHONY : CMakeFiles/qt_test.dir/codegen
 
 # clean rule for target.
 CMakeFiles/qt_test.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_test.dir/build.make CMakeFiles/qt_test.dir/clean
 .PHONY : CMakeFiles/qt_test.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/qt_test_autogen_timestamp_deps.dir
+
+# All Build rule for target.
+CMakeFiles/qt_test_autogen_timestamp_deps.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_test_autogen_timestamp_deps.dir/build.make CMakeFiles/qt_test_autogen_timestamp_deps.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_test_autogen_timestamp_deps.dir/build.make CMakeFiles/qt_test_autogen_timestamp_deps.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/sgdsg/projects/qt_test/build-clang/CMakeFiles --progress-num= "Built target qt_test_autogen_timestamp_deps"
+.PHONY : CMakeFiles/qt_test_autogen_timestamp_deps.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/qt_test_autogen_timestamp_deps.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sgdsg/projects/qt_test/build-clang/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/qt_test_autogen_timestamp_deps.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sgdsg/projects/qt_test/build-clang/CMakeFiles 0
+.PHONY : CMakeFiles/qt_test_autogen_timestamp_deps.dir/rule
+
+# Convenience name for target.
+qt_test_autogen_timestamp_deps: CMakeFiles/qt_test_autogen_timestamp_deps.dir/rule
+.PHONY : qt_test_autogen_timestamp_deps
+
+# codegen rule for target.
+CMakeFiles/qt_test_autogen_timestamp_deps.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_test_autogen_timestamp_deps.dir/build.make CMakeFiles/qt_test_autogen_timestamp_deps.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/sgdsg/projects/qt_test/build-clang/CMakeFiles --progress-num= "Finished codegen for target qt_test_autogen_timestamp_deps"
+.PHONY : CMakeFiles/qt_test_autogen_timestamp_deps.dir/codegen
+
+# clean rule for target.
+CMakeFiles/qt_test_autogen_timestamp_deps.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_test_autogen_timestamp_deps.dir/build.make CMakeFiles/qt_test_autogen_timestamp_deps.dir/clean
+.PHONY : CMakeFiles/qt_test_autogen_timestamp_deps.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/qt_test_autogen.dir
+
+# All Build rule for target.
+CMakeFiles/qt_test_autogen.dir/all: CMakeFiles/qt_test_autogen_timestamp_deps.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_test_autogen.dir/build.make CMakeFiles/qt_test_autogen.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_test_autogen.dir/build.make CMakeFiles/qt_test_autogen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/sgdsg/projects/qt_test/build-clang/CMakeFiles --progress-num=5 "Built target qt_test_autogen"
+.PHONY : CMakeFiles/qt_test_autogen.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/qt_test_autogen.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sgdsg/projects/qt_test/build-clang/CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/qt_test_autogen.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sgdsg/projects/qt_test/build-clang/CMakeFiles 0
+.PHONY : CMakeFiles/qt_test_autogen.dir/rule
+
+# Convenience name for target.
+qt_test_autogen: CMakeFiles/qt_test_autogen.dir/rule
+.PHONY : qt_test_autogen
+
+# codegen rule for target.
+CMakeFiles/qt_test_autogen.dir/codegen: CMakeFiles/qt_test_autogen_timestamp_deps.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_test_autogen.dir/build.make CMakeFiles/qt_test_autogen.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/sgdsg/projects/qt_test/build-clang/CMakeFiles --progress-num=5 "Finished codegen for target qt_test_autogen"
+.PHONY : CMakeFiles/qt_test_autogen.dir/codegen
+
+# clean rule for target.
+CMakeFiles/qt_test_autogen.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_test_autogen.dir/build.make CMakeFiles/qt_test_autogen.dir/clean
+.PHONY : CMakeFiles/qt_test_autogen.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

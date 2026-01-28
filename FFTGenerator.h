@@ -3,7 +3,6 @@
 #include <qcontainerfwd.h>
 #include <qthread.h>
 #include <qtmetamacros.h>
-#include "SignalConfig.h"
 
 class FFTGenerator : public QObject {
   Q_OBJECT

@@ -5,6 +5,8 @@
 #include <qlogging.h>
 #include <qthread.h>
 void SinGenerator::start() {
+  this->moveToThread(thread);
+  thread->start();
   if (running.exchange(true))
     return;
   while (running.load()) {

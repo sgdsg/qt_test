@@ -8,7 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/sgdsg/projects/qt_test/test.cc" "CMakeFiles/qt_test.dir/test.cc.o" "gcc" "CMakeFiles/qt_test.dir/test.cc.o.d"
+  "" "qt_test_autogen/timestamp" "custom" "qt_test_autogen/deps"
+  "/home/sgdsg/projects/qt_test/main.cc" "CMakeFiles/qt_test.dir/main.cc.o" "gcc" "CMakeFiles/qt_test.dir/main.cc.o.d"
+  "/home/sgdsg/projects/qt_test/build-clang/qt_test_autogen/mocs_compilation.cpp" "CMakeFiles/qt_test.dir/qt_test_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/qt_test.dir/qt_test_autogen/mocs_compilation.cpp.o.d"
   "" "qt_test" "gcc" "CMakeFiles/qt_test.dir/link.d"
   )
 

@@ -289,7 +289,7 @@ CMakeFiles/qt_test.dir/SignalManager.cc.o: \
  /usr/include/qt6/QtCore/qstringlist.h \
  /usr/include/qt6/QtCore/qalgorithms.h \
  /usr/include/qt6/QtCore/qstringmatcher.h \
- /home/sgdsg/projects/qt_test/SignalConfig.h \
+ /home/sgdsg/projects/qt_test/ConfigManager.h \
  /usr/include/c++/15.2.1/iostream /usr/include/json/json.h \
  /usr/include/json/config.h /usr/include/json/allocator.h \
  /usr/include/json/version.h /usr/include/json/json_features.h \

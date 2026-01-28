@@ -314,9 +314,9 @@ CMakeFiles/qt_test.dir/FFTGenerator.cc.o: \
  /usr/include/c++/15.2.1/bits/atomic_futex.h \
  /usr/include/c++/15.2.1/bits/std_thread.h \
  /usr/include/qt6/QtCore/qtmetamacros.h \
- /home/sgdsg/projects/qt_test/SignalConfig.h \
- /usr/include/c++/15.2.1/iostream /usr/include/c++/15.2.1/ostream \
- /usr/include/c++/15.2.1/bits/ostream.h /usr/include/c++/15.2.1/ios \
+ /home/sgdsg/projects/qt_test/SignalManager.h \
+ /usr/include/c++/15.2.1/complex /usr/include/c++/15.2.1/sstream \
+ /usr/include/c++/15.2.1/istream /usr/include/c++/15.2.1/ios \
  /usr/include/c++/15.2.1/bits/basic_ios.h \
  /usr/include/c++/15.2.1/bits/locale_facets.h \
  /usr/include/c++/15.2.1/cwctype /usr/include/wctype.h \
@@ -325,10 +325,14 @@ CMakeFiles/qt_test.dir/FFTGenerator.cc.o: \
  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/ctype_inline.h \
  /usr/include/c++/15.2.1/bits/locale_facets.tcc \
  /usr/include/c++/15.2.1/bits/basic_ios.tcc \
- /usr/include/c++/15.2.1/bits/ostream.tcc /usr/include/c++/15.2.1/istream \
- /usr/include/c++/15.2.1/bits/istream.tcc /usr/include/json/json.h \
- /usr/include/json/config.h /usr/include/c++/15.2.1/sstream \
- /usr/include/c++/15.2.1/bits/sstream.tcc /usr/include/json/allocator.h \
+ /usr/include/c++/15.2.1/ostream /usr/include/c++/15.2.1/bits/ostream.h \
+ /usr/include/c++/15.2.1/bits/ostream.tcc \
+ /usr/include/c++/15.2.1/bits/istream.tcc \
+ /usr/include/c++/15.2.1/bits/sstream.tcc /usr/include/fftw3.h \
+ /usr/include/qt6/QtCore/QVector /usr/include/qt6/QtCore/qvector.h \
+ /home/sgdsg/projects/qt_test/ConfigManager.h \
+ /usr/include/c++/15.2.1/iostream /usr/include/json/json.h \
+ /usr/include/json/config.h /usr/include/json/allocator.h \
  /usr/include/json/version.h /usr/include/json/json_features.h \
  /usr/include/json/forwards.h /usr/include/json/reader.h \
  /usr/include/json/value.h /usr/include/c++/15.2.1/deque \
@@ -372,7 +376,4 @@ CMakeFiles/qt_test.dir/FFTGenerator.cc.o: \
  /usr/include/qt6/QtCore/qregularexpression.h \
  /usr/include/qt6/QtCore/qurl.h /usr/include/qt6/QtCore/quuid.h \
  /usr/include/qt6/QtCore/qendian.h \
- /usr/include/qt6/QtCore/qjsondocument.h \
- /home/sgdsg/projects/qt_test/SignalManager.h \
- /usr/include/c++/15.2.1/complex /usr/include/fftw3.h \
- /usr/include/qt6/QtCore/QVector /usr/include/qt6/QtCore/qvector.h
+ /usr/include/qt6/QtCore/qjsondocument.h

@@ -1,6 +1,6 @@
 #pragma once
 #include "FFTGenerator.h"
-#include "SignalConfig.h"
+#include "ConfigManager.h"
 #include "SinGenerator.h"
 #include <QCoreApplication>
 #include <QJsonDocument>

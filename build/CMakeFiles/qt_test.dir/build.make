@@ -106,119 +106,23 @@ CMakeFiles/qt_test.dir/main.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/qt_test.dir/main.cc.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sgdsg/projects/qt_test/main.cc -o CMakeFiles/qt_test.dir/main.cc.s
 
-CMakeFiles/qt_test.dir/WebSocketManager.cc.o: CMakeFiles/qt_test.dir/flags.make
-CMakeFiles/qt_test.dir/WebSocketManager.cc.o: /home/sgdsg/projects/qt_test/WebSocketManager.cc
-CMakeFiles/qt_test.dir/WebSocketManager.cc.o: CMakeFiles/qt_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sgdsg/projects/qt_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/qt_test.dir/WebSocketManager.cc.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qt_test.dir/WebSocketManager.cc.o -MF CMakeFiles/qt_test.dir/WebSocketManager.cc.o.d -o CMakeFiles/qt_test.dir/WebSocketManager.cc.o -c /home/sgdsg/projects/qt_test/WebSocketManager.cc
-
-CMakeFiles/qt_test.dir/WebSocketManager.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qt_test.dir/WebSocketManager.cc.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sgdsg/projects/qt_test/WebSocketManager.cc > CMakeFiles/qt_test.dir/WebSocketManager.cc.i
-
-CMakeFiles/qt_test.dir/WebSocketManager.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/qt_test.dir/WebSocketManager.cc.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sgdsg/projects/qt_test/WebSocketManager.cc -o CMakeFiles/qt_test.dir/WebSocketManager.cc.s
-
-CMakeFiles/qt_test.dir/WebSocketServer.cc.o: CMakeFiles/qt_test.dir/flags.make
-CMakeFiles/qt_test.dir/WebSocketServer.cc.o: /home/sgdsg/projects/qt_test/WebSocketServer.cc
-CMakeFiles/qt_test.dir/WebSocketServer.cc.o: CMakeFiles/qt_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sgdsg/projects/qt_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/qt_test.dir/WebSocketServer.cc.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qt_test.dir/WebSocketServer.cc.o -MF CMakeFiles/qt_test.dir/WebSocketServer.cc.o.d -o CMakeFiles/qt_test.dir/WebSocketServer.cc.o -c /home/sgdsg/projects/qt_test/WebSocketServer.cc
-
-CMakeFiles/qt_test.dir/WebSocketServer.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qt_test.dir/WebSocketServer.cc.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sgdsg/projects/qt_test/WebSocketServer.cc > CMakeFiles/qt_test.dir/WebSocketServer.cc.i
-
-CMakeFiles/qt_test.dir/WebSocketServer.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/qt_test.dir/WebSocketServer.cc.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sgdsg/projects/qt_test/WebSocketServer.cc -o CMakeFiles/qt_test.dir/WebSocketServer.cc.s
-
-CMakeFiles/qt_test.dir/SignalManager.cc.o: CMakeFiles/qt_test.dir/flags.make
-CMakeFiles/qt_test.dir/SignalManager.cc.o: /home/sgdsg/projects/qt_test/SignalManager.cc
-CMakeFiles/qt_test.dir/SignalManager.cc.o: CMakeFiles/qt_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sgdsg/projects/qt_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/qt_test.dir/SignalManager.cc.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qt_test.dir/SignalManager.cc.o -MF CMakeFiles/qt_test.dir/SignalManager.cc.o.d -o CMakeFiles/qt_test.dir/SignalManager.cc.o -c /home/sgdsg/projects/qt_test/SignalManager.cc
-
-CMakeFiles/qt_test.dir/SignalManager.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qt_test.dir/SignalManager.cc.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sgdsg/projects/qt_test/SignalManager.cc > CMakeFiles/qt_test.dir/SignalManager.cc.i
-
-CMakeFiles/qt_test.dir/SignalManager.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/qt_test.dir/SignalManager.cc.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sgdsg/projects/qt_test/SignalManager.cc -o CMakeFiles/qt_test.dir/SignalManager.cc.s
-
-CMakeFiles/qt_test.dir/SignalConfig.cc.o: CMakeFiles/qt_test.dir/flags.make
-CMakeFiles/qt_test.dir/SignalConfig.cc.o: /home/sgdsg/projects/qt_test/SignalConfig.cc
-CMakeFiles/qt_test.dir/SignalConfig.cc.o: CMakeFiles/qt_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sgdsg/projects/qt_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/qt_test.dir/SignalConfig.cc.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qt_test.dir/SignalConfig.cc.o -MF CMakeFiles/qt_test.dir/SignalConfig.cc.o.d -o CMakeFiles/qt_test.dir/SignalConfig.cc.o -c /home/sgdsg/projects/qt_test/SignalConfig.cc
-
-CMakeFiles/qt_test.dir/SignalConfig.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qt_test.dir/SignalConfig.cc.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sgdsg/projects/qt_test/SignalConfig.cc > CMakeFiles/qt_test.dir/SignalConfig.cc.i
-
-CMakeFiles/qt_test.dir/SignalConfig.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/qt_test.dir/SignalConfig.cc.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sgdsg/projects/qt_test/SignalConfig.cc -o CMakeFiles/qt_test.dir/SignalConfig.cc.s
-
-CMakeFiles/qt_test.dir/SinGenerator.cc.o: CMakeFiles/qt_test.dir/flags.make
-CMakeFiles/qt_test.dir/SinGenerator.cc.o: /home/sgdsg/projects/qt_test/SinGenerator.cc
-CMakeFiles/qt_test.dir/SinGenerator.cc.o: CMakeFiles/qt_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sgdsg/projects/qt_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/qt_test.dir/SinGenerator.cc.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qt_test.dir/SinGenerator.cc.o -MF CMakeFiles/qt_test.dir/SinGenerator.cc.o.d -o CMakeFiles/qt_test.dir/SinGenerator.cc.o -c /home/sgdsg/projects/qt_test/SinGenerator.cc
-
-CMakeFiles/qt_test.dir/SinGenerator.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qt_test.dir/SinGenerator.cc.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sgdsg/projects/qt_test/SinGenerator.cc > CMakeFiles/qt_test.dir/SinGenerator.cc.i
-
-CMakeFiles/qt_test.dir/SinGenerator.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/qt_test.dir/SinGenerator.cc.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sgdsg/projects/qt_test/SinGenerator.cc -o CMakeFiles/qt_test.dir/SinGenerator.cc.s
-
-CMakeFiles/qt_test.dir/FFTGenerator.cc.o: CMakeFiles/qt_test.dir/flags.make
-CMakeFiles/qt_test.dir/FFTGenerator.cc.o: /home/sgdsg/projects/qt_test/FFTGenerator.cc
-CMakeFiles/qt_test.dir/FFTGenerator.cc.o: CMakeFiles/qt_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sgdsg/projects/qt_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/qt_test.dir/FFTGenerator.cc.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qt_test.dir/FFTGenerator.cc.o -MF CMakeFiles/qt_test.dir/FFTGenerator.cc.o.d -o CMakeFiles/qt_test.dir/FFTGenerator.cc.o -c /home/sgdsg/projects/qt_test/FFTGenerator.cc
-
-CMakeFiles/qt_test.dir/FFTGenerator.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qt_test.dir/FFTGenerator.cc.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sgdsg/projects/qt_test/FFTGenerator.cc > CMakeFiles/qt_test.dir/FFTGenerator.cc.i
-
-CMakeFiles/qt_test.dir/FFTGenerator.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/qt_test.dir/FFTGenerator.cc.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sgdsg/projects/qt_test/FFTGenerator.cc -o CMakeFiles/qt_test.dir/FFTGenerator.cc.s
-
 # Object files for target qt_test
 qt_test_OBJECTS = \
 "CMakeFiles/qt_test.dir/qt_test_autogen/mocs_compilation.cpp.o" \
-"CMakeFiles/qt_test.dir/main.cc.o" \
-"CMakeFiles/qt_test.dir/WebSocketManager.cc.o" \
-"CMakeFiles/qt_test.dir/WebSocketServer.cc.o" \
-"CMakeFiles/qt_test.dir/SignalManager.cc.o" \
-"CMakeFiles/qt_test.dir/SignalConfig.cc.o" \
-"CMakeFiles/qt_test.dir/SinGenerator.cc.o" \
-"CMakeFiles/qt_test.dir/FFTGenerator.cc.o"
+"CMakeFiles/qt_test.dir/main.cc.o"
 
 # External object files for target qt_test
 qt_test_EXTERNAL_OBJECTS =
 
 qt_test: CMakeFiles/qt_test.dir/qt_test_autogen/mocs_compilation.cpp.o
 qt_test: CMakeFiles/qt_test.dir/main.cc.o
-qt_test: CMakeFiles/qt_test.dir/WebSocketManager.cc.o
-qt_test: CMakeFiles/qt_test.dir/WebSocketServer.cc.o
-qt_test: CMakeFiles/qt_test.dir/SignalManager.cc.o
-qt_test: CMakeFiles/qt_test.dir/SignalConfig.cc.o
-qt_test: CMakeFiles/qt_test.dir/SinGenerator.cc.o
-qt_test: CMakeFiles/qt_test.dir/FFTGenerator.cc.o
 qt_test: CMakeFiles/qt_test.dir/build.make
 qt_test: CMakeFiles/qt_test.dir/compiler_depend.ts
 qt_test: /usr/lib/libQt6WebSockets.so.6.10.1
 qt_test: /usr/lib/libQt6Network.so.6.10.1
 qt_test: /usr/lib/libQt6Core.so.6.10.1
 qt_test: CMakeFiles/qt_test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/sgdsg/projects/qt_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable qt_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/sgdsg/projects/qt_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable qt_test"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/qt_test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

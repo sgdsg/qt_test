@@ -69,36 +69,61 @@ include CMakeFiles/qt_test.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/qt_test.dir/flags.make
 
+qt_test_autogen/timestamp: /usr/lib/qt6/moc
+qt_test_autogen/timestamp: CMakeFiles/qt_test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/sgdsg/projects/qt_test/build-clang/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target qt_test"
+	/usr/bin/cmake -E cmake_autogen /home/sgdsg/projects/qt_test/build-clang/CMakeFiles/qt_test_autogen.dir/AutogenInfo.json ""
+	/usr/bin/cmake -E touch /home/sgdsg/projects/qt_test/build-clang/qt_test_autogen/timestamp
+
 CMakeFiles/qt_test.dir/codegen:
 .PHONY : CMakeFiles/qt_test.dir/codegen
 
-CMakeFiles/qt_test.dir/test.cc.o: CMakeFiles/qt_test.dir/flags.make
-CMakeFiles/qt_test.dir/test.cc.o: /home/sgdsg/projects/qt_test/test.cc
-CMakeFiles/qt_test.dir/test.cc.o: CMakeFiles/qt_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sgdsg/projects/qt_test/build-clang/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/qt_test.dir/test.cc.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qt_test.dir/test.cc.o -MF CMakeFiles/qt_test.dir/test.cc.o.d -o CMakeFiles/qt_test.dir/test.cc.o -c /home/sgdsg/projects/qt_test/test.cc
+CMakeFiles/qt_test.dir/qt_test_autogen/mocs_compilation.cpp.o: CMakeFiles/qt_test.dir/flags.make
+CMakeFiles/qt_test.dir/qt_test_autogen/mocs_compilation.cpp.o: qt_test_autogen/mocs_compilation.cpp
+CMakeFiles/qt_test.dir/qt_test_autogen/mocs_compilation.cpp.o: CMakeFiles/qt_test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sgdsg/projects/qt_test/build-clang/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/qt_test.dir/qt_test_autogen/mocs_compilation.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qt_test.dir/qt_test_autogen/mocs_compilation.cpp.o -MF CMakeFiles/qt_test.dir/qt_test_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/qt_test.dir/qt_test_autogen/mocs_compilation.cpp.o -c /home/sgdsg/projects/qt_test/build-clang/qt_test_autogen/mocs_compilation.cpp
 
-CMakeFiles/qt_test.dir/test.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qt_test.dir/test.cc.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sgdsg/projects/qt_test/test.cc > CMakeFiles/qt_test.dir/test.cc.i
+CMakeFiles/qt_test.dir/qt_test_autogen/mocs_compilation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qt_test.dir/qt_test_autogen/mocs_compilation.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sgdsg/projects/qt_test/build-clang/qt_test_autogen/mocs_compilation.cpp > CMakeFiles/qt_test.dir/qt_test_autogen/mocs_compilation.cpp.i
 
-CMakeFiles/qt_test.dir/test.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/qt_test.dir/test.cc.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sgdsg/projects/qt_test/test.cc -o CMakeFiles/qt_test.dir/test.cc.s
+CMakeFiles/qt_test.dir/qt_test_autogen/mocs_compilation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/qt_test.dir/qt_test_autogen/mocs_compilation.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sgdsg/projects/qt_test/build-clang/qt_test_autogen/mocs_compilation.cpp -o CMakeFiles/qt_test.dir/qt_test_autogen/mocs_compilation.cpp.s
+
+CMakeFiles/qt_test.dir/main.cc.o: CMakeFiles/qt_test.dir/flags.make
+CMakeFiles/qt_test.dir/main.cc.o: /home/sgdsg/projects/qt_test/main.cc
+CMakeFiles/qt_test.dir/main.cc.o: CMakeFiles/qt_test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sgdsg/projects/qt_test/build-clang/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/qt_test.dir/main.cc.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qt_test.dir/main.cc.o -MF CMakeFiles/qt_test.dir/main.cc.o.d -o CMakeFiles/qt_test.dir/main.cc.o -c /home/sgdsg/projects/qt_test/main.cc
+
+CMakeFiles/qt_test.dir/main.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qt_test.dir/main.cc.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sgdsg/projects/qt_test/main.cc > CMakeFiles/qt_test.dir/main.cc.i
+
+CMakeFiles/qt_test.dir/main.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/qt_test.dir/main.cc.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sgdsg/projects/qt_test/main.cc -o CMakeFiles/qt_test.dir/main.cc.s
 
 # Object files for target qt_test
 qt_test_OBJECTS = \
-"CMakeFiles/qt_test.dir/test.cc.o"
+"CMakeFiles/qt_test.dir/qt_test_autogen/mocs_compilation.cpp.o" \
+"CMakeFiles/qt_test.dir/main.cc.o"
 
 # External object files for target qt_test
 qt_test_EXTERNAL_OBJECTS =
 
-qt_test: CMakeFiles/qt_test.dir/test.cc.o
+qt_test: CMakeFiles/qt_test.dir/qt_test_autogen/mocs_compilation.cpp.o
+qt_test: CMakeFiles/qt_test.dir/main.cc.o
 qt_test: CMakeFiles/qt_test.dir/build.make
 qt_test: CMakeFiles/qt_test.dir/compiler_depend.ts
+qt_test: /home/sgdsg/.local/lib/liblib_test.so
+qt_test: /usr/lib/libQt6WebSockets.so.6.10.1
+qt_test: /usr/lib/libQt6Network.so.6.10.1
 qt_test: /usr/lib/libQt6Core.so.6.10.1
 qt_test: CMakeFiles/qt_test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/sgdsg/projects/qt_test/build-clang/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable qt_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/sgdsg/projects/qt_test/build-clang/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable qt_test"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/qt_test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -109,7 +134,7 @@ CMakeFiles/qt_test.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles/qt_test.dir/cmake_clean.cmake
 .PHONY : CMakeFiles/qt_test.dir/clean
 
-CMakeFiles/qt_test.dir/depend:
+CMakeFiles/qt_test.dir/depend: qt_test_autogen/timestamp
 	cd /home/sgdsg/projects/qt_test/build-clang && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sgdsg/projects/qt_test /home/sgdsg/projects/qt_test /home/sgdsg/projects/qt_test/build-clang /home/sgdsg/projects/qt_test/build-clang /home/sgdsg/projects/qt_test/build-clang/CMakeFiles/qt_test.dir/DependInfo.cmake "--color=$(COLOR)" qt_test
 .PHONY : CMakeFiles/qt_test.dir/depend
 

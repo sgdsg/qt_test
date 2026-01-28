@@ -129,29 +129,79 @@ qt_test/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_test.dir/build.make CMakeFiles/qt_test.dir/build
 .PHONY : qt_test/fast
 
-test.o: test.cc.o
-.PHONY : test.o
+#=============================================================================
+# Target rules for targets named qt_test_autogen_timestamp_deps
+
+# Build rule for target.
+qt_test_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 qt_test_autogen_timestamp_deps
+.PHONY : qt_test_autogen_timestamp_deps
+
+# fast build rule for target.
+qt_test_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_test_autogen_timestamp_deps.dir/build.make CMakeFiles/qt_test_autogen_timestamp_deps.dir/build
+.PHONY : qt_test_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named qt_test_autogen
+
+# Build rule for target.
+qt_test_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 qt_test_autogen
+.PHONY : qt_test_autogen
+
+# fast build rule for target.
+qt_test_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_test_autogen.dir/build.make CMakeFiles/qt_test_autogen.dir/build
+.PHONY : qt_test_autogen/fast
+
+main.o: main.cc.o
+.PHONY : main.o
 
 # target to build an object file
-test.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_test.dir/build.make CMakeFiles/qt_test.dir/test.cc.o
-.PHONY : test.cc.o
+main.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_test.dir/build.make CMakeFiles/qt_test.dir/main.cc.o
+.PHONY : main.cc.o
 
-test.i: test.cc.i
-.PHONY : test.i
+main.i: main.cc.i
+.PHONY : main.i
 
 # target to preprocess a source file
-test.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_test.dir/build.make CMakeFiles/qt_test.dir/test.cc.i
-.PHONY : test.cc.i
+main.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_test.dir/build.make CMakeFiles/qt_test.dir/main.cc.i
+.PHONY : main.cc.i
 
-test.s: test.cc.s
-.PHONY : test.s
+main.s: main.cc.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-test.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_test.dir/build.make CMakeFiles/qt_test.dir/test.cc.s
-.PHONY : test.cc.s
+main.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_test.dir/build.make CMakeFiles/qt_test.dir/main.cc.s
+.PHONY : main.cc.s
+
+qt_test_autogen/mocs_compilation.o: qt_test_autogen/mocs_compilation.cpp.o
+.PHONY : qt_test_autogen/mocs_compilation.o
+
+# target to build an object file
+qt_test_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_test.dir/build.make CMakeFiles/qt_test.dir/qt_test_autogen/mocs_compilation.cpp.o
+.PHONY : qt_test_autogen/mocs_compilation.cpp.o
+
+qt_test_autogen/mocs_compilation.i: qt_test_autogen/mocs_compilation.cpp.i
+.PHONY : qt_test_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+qt_test_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_test.dir/build.make CMakeFiles/qt_test.dir/qt_test_autogen/mocs_compilation.cpp.i
+.PHONY : qt_test_autogen/mocs_compilation.cpp.i
+
+qt_test_autogen/mocs_compilation.s: qt_test_autogen/mocs_compilation.cpp.s
+.PHONY : qt_test_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+qt_test_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qt_test.dir/build.make CMakeFiles/qt_test.dir/qt_test_autogen/mocs_compilation.cpp.s
+.PHONY : qt_test_autogen/mocs_compilation.cpp.s
 
 # Help Target
 help:
@@ -161,10 +211,15 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... qt_test_autogen"
+	@echo "... qt_test_autogen_timestamp_deps"
 	@echo "... qt_test"
-	@echo "... test.o"
-	@echo "... test.i"
-	@echo "... test.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
+	@echo "... qt_test_autogen/mocs_compilation.o"
+	@echo "... qt_test_autogen/mocs_compilation.i"
+	@echo "... qt_test_autogen/mocs_compilation.s"
 .PHONY : help
 
 

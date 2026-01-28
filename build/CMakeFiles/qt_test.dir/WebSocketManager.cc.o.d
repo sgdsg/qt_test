@@ -316,7 +316,7 @@ CMakeFiles/qt_test.dir/WebSocketManager.cc.o: \
  /usr/include/c++/15.2.1/bits/atomic_futex.h \
  /usr/include/c++/15.2.1/bits/std_thread.h \
  /usr/include/qt6/QtCore/qtmetamacros.h \
- /home/sgdsg/projects/qt_test/SignalConfig.h \
+ /home/sgdsg/projects/qt_test/ConfigManager.h \
  /usr/include/c++/15.2.1/iostream /usr/include/c++/15.2.1/ostream \
  /usr/include/c++/15.2.1/bits/ostream.h /usr/include/c++/15.2.1/ios \
  /usr/include/c++/15.2.1/bits/basic_ios.h \
@@ -376,6 +376,8 @@ CMakeFiles/qt_test.dir/WebSocketManager.cc.o: \
  /usr/include/qt6/QtCore/qendian.h \
  /usr/include/qt6/QtCore/qjsondocument.h \
  /home/sgdsg/projects/qt_test/SinGenerator.h \
+ /home/sgdsg/projects/qt_test/ComponentInterface.h \
+ /usr/include/qt6/QtCore/qvariant.h \
  /usr/include/qt6/QtWebSockets/QWebSocket \
  /usr/include/qt6/QtWebSockets/qwebsocket.h /usr/include/qt6/QtCore/QUrl \
  /usr/include/qt6/QtCore/qurl.h \

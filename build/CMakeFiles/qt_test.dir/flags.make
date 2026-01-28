@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/g++
 CXX_DEFINES = -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_WEBSOCKETS_LIB
 
-CXX_INCLUDES = -I/home/sgdsg/projects/qt_test/build/qt_test_autogen/include -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtWebSockets -isystem /usr/include/qt6/QtNetwork
+CXX_INCLUDES = -I/home/sgdsg/projects/qt_test/build/qt_test_autogen/include -I/home/sgdsg/projects/lib_test -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtWebSockets -isystem /usr/include/qt6/QtNetwork
 
 CXX_FLAGS = -g -mno-direct-extern-access
 

@@ -11,9 +11,8 @@ WebSocketServer::WebSocketServer(quint16 port)
     : server(QStringLiteral("QtWsServer"), QWebSocketServer::NonSecureMode) {
   server.listen(QHostAddress::Any, port);
   qInfo() << "WS listening on port" << server.serverPort();
-  QThread *sinThread = new QThread(this);
   sin = new SinGenerator;
-  sin->moveToThread(sinThread);
+  sin->moveToThread(sin->thread);
   connect(sinThread, &QThread::started, sin, &SinGenerator::start);
   connect(sinThread, &QThread::finished, sin, &SinGenerator::stop);
   connect(sinThread, &QThread::finished, sin, &QObject::deleteLater);

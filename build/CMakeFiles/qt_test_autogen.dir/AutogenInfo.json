@@ -176,45 +176,7 @@
 	"CROSS_CONFIG" : false,
 	"DEP_FILE" : "/home/sgdsg/projects/qt_test/build/qt_test_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "qt_test_autogen/timestamp",
-	"HEADERS" : 
-	[
-		[
-			"/home/sgdsg/projects/qt_test/FFTGenerator.h",
-			"Mu",
-			"EWIEGA46WW/moc_FFTGenerator.cpp",
-			null
-		],
-		[
-			"/home/sgdsg/projects/qt_test/SignalConfig.h",
-			"Mu",
-			"EWIEGA46WW/moc_SignalConfig.cpp",
-			null
-		],
-		[
-			"/home/sgdsg/projects/qt_test/SignalManager.h",
-			"Mu",
-			"EWIEGA46WW/moc_SignalManager.cpp",
-			null
-		],
-		[
-			"/home/sgdsg/projects/qt_test/SinGenerator.h",
-			"Mu",
-			"EWIEGA46WW/moc_SinGenerator.cpp",
-			null
-		],
-		[
-			"/home/sgdsg/projects/qt_test/WebSocketManager.h",
-			"Mu",
-			"EWIEGA46WW/moc_WebSocketManager.cpp",
-			null
-		],
-		[
-			"/home/sgdsg/projects/qt_test/WebSocketServer.h",
-			"Mu",
-			"EWIEGA46WW/moc_WebSocketServer.cpp",
-			null
-		]
-	],
+	"HEADERS" : [],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
 	"INCLUDE_DIR" : "/home/sgdsg/projects/qt_test/build/qt_test_autogen/include",
 	"MOC_COMPILATION_FILE" : "/home/sgdsg/projects/qt_test/build/qt_test_autogen/mocs_compilation.cpp",
@@ -228,6 +190,7 @@
 	],
 	"MOC_INCLUDES" : 
 	[
+		"/home/sgdsg/projects/lib_test",
 		"/usr/include/qt6/QtCore",
 		"/usr/include/qt6",
 		"/usr/lib/qt6/mkspecs/linux-g++",
@@ -273,12 +236,6 @@
 	"SETTINGS_FILE" : "/home/sgdsg/projects/qt_test/build/CMakeFiles/qt_test_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "/home/sgdsg/projects/qt_test/FFTGenerator.cc", "Mu", null ],
-		[ "/home/sgdsg/projects/qt_test/SignalConfig.cc", "Mu", null ],
-		[ "/home/sgdsg/projects/qt_test/SignalManager.cc", "Mu", null ],
-		[ "/home/sgdsg/projects/qt_test/SinGenerator.cc", "Mu", null ],
-		[ "/home/sgdsg/projects/qt_test/WebSocketManager.cc", "Mu", null ],
-		[ "/home/sgdsg/projects/qt_test/WebSocketServer.cc", "Mu", null ],
 		[ "/home/sgdsg/projects/qt_test/main.cc", "Mu", null ]
 	],
 	"USE_BETTER_GRAPH" : true,

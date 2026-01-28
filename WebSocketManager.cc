@@ -1,6 +1,5 @@
 #include "WebSocketManager.h"
 #include "FFTGenerator.h"
-#include "SignalConfig.h"
 #include "SinGenerator.h"
 #include <QtWebSockets/qwebsocket.h>
 #include <qjsonparseerror.h>

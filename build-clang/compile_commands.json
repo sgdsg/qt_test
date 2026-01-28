@@ -1,8 +1,14 @@
 [
 {
   "directory": "/home/sgdsg/projects/qt_test/build-clang",
-  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_NO_DEBUG -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib/qt6/mkspecs/linux-g++ -fno-direct-access-external-data -o CMakeFiles/qt_test.dir/test.cc.o -c /home/sgdsg/projects/qt_test/test.cc",
-  "file": "/home/sgdsg/projects/qt_test/test.cc",
-  "output": "CMakeFiles/qt_test.dir/test.cc.o"
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_WEBSOCKETS_LIB -I/home/sgdsg/projects/qt_test/build-clang/qt_test_autogen/include -isystem /home/sgdsg/.local/include -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtWebSockets -isystem /usr/include/qt6/QtNetwork -fno-direct-access-external-data -o CMakeFiles/qt_test.dir/qt_test_autogen/mocs_compilation.cpp.o -c /home/sgdsg/projects/qt_test/build-clang/qt_test_autogen/mocs_compilation.cpp",
+  "file": "/home/sgdsg/projects/qt_test/build-clang/qt_test_autogen/mocs_compilation.cpp",
+  "output": "CMakeFiles/qt_test.dir/qt_test_autogen/mocs_compilation.cpp.o"
+},
+{
+  "directory": "/home/sgdsg/projects/qt_test/build-clang",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_WEBSOCKETS_LIB -I/home/sgdsg/projects/qt_test/build-clang/qt_test_autogen/include -isystem /home/sgdsg/.local/include -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtWebSockets -isystem /usr/include/qt6/QtNetwork -fno-direct-access-external-data -o CMakeFiles/qt_test.dir/main.cc.o -c /home/sgdsg/projects/qt_test/main.cc",
+  "file": "/home/sgdsg/projects/qt_test/main.cc",
+  "output": "CMakeFiles/qt_test.dir/main.cc.o"
 }
 ]

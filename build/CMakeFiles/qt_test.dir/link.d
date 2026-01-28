@@ -4,12 +4,7 @@ qt_test: \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o \
   CMakeFiles/qt_test.dir/qt_test_autogen/mocs_compilation.cpp.o \
   CMakeFiles/qt_test.dir/main.cc.o \
-  CMakeFiles/qt_test.dir/WebSocketManager.cc.o \
-  CMakeFiles/qt_test.dir/WebSocketServer.cc.o \
-  CMakeFiles/qt_test.dir/SignalManager.cc.o \
-  CMakeFiles/qt_test.dir/SignalConfig.cc.o \
-  CMakeFiles/qt_test.dir/SinGenerator.cc.o \
-  CMakeFiles/qt_test.dir/FFTGenerator.cc.o \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libdl.a \
   /usr/lib/libQt6WebSockets.so.6.10.1 \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libfftw3.so \
   /usr/lib/libQt6Network.so.6.10.1 \
@@ -117,17 +112,7 @@ CMakeFiles/qt_test.dir/qt_test_autogen/mocs_compilation.cpp.o:
 
 CMakeFiles/qt_test.dir/main.cc.o:
 
-CMakeFiles/qt_test.dir/WebSocketManager.cc.o:
-
-CMakeFiles/qt_test.dir/WebSocketServer.cc.o:
-
-CMakeFiles/qt_test.dir/SignalManager.cc.o:
-
-CMakeFiles/qt_test.dir/SignalConfig.cc.o:
-
-CMakeFiles/qt_test.dir/SinGenerator.cc.o:
-
-CMakeFiles/qt_test.dir/FFTGenerator.cc.o:
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libdl.a:
 
 /usr/lib/libQt6WebSockets.so.6.10.1:
 

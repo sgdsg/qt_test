@@ -1,9 +1,8 @@
 CMakeFiles/qt_test.dir/SinGenerator.cc.o: \
  /home/sgdsg/projects/qt_test/SinGenerator.cc /usr/include/stdc-predef.h \
  /home/sgdsg/projects/qt_test/SinGenerator.h \
- /usr/include/qt6/QtCore/QCoreApplication \
- /usr/include/qt6/QtCore/qcoreapplication.h \
- /usr/include/qt6/QtCore/qglobal.h /usr/include/c++/15.2.1/type_traits \
+ /home/sgdsg/projects/qt_test/ComponentInterface.h \
+ /usr/include/c++/15.2.1/atomic /usr/include/c++/15.2.1/bits/version.h \
  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -12,20 +11,26 @@ CMakeFiles/qt_test.dir/SinGenerator.cc.o: \
  /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h \
  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/cpu_defines.h \
  /usr/include/c++/15.2.1/pstl/pstl_config.h \
- /usr/include/c++/15.2.1/bits/version.h /usr/include/c++/15.2.1/cstddef \
- /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h \
- /usr/include/c++/15.2.1/utility \
- /usr/include/c++/15.2.1/bits/stl_relops.h \
- /usr/include/c++/15.2.1/bits/stl_pair.h \
- /usr/include/c++/15.2.1/bits/move.h \
- /usr/include/c++/15.2.1/bits/utility.h \
- /usr/include/c++/15.2.1/initializer_list /usr/include/c++/15.2.1/cstdint \
+ /usr/include/c++/15.2.1/bits/atomic_base.h /usr/include/c++/15.2.1/new \
+ /usr/include/c++/15.2.1/bits/exception.h \
+ /usr/include/c++/15.2.1/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/15.2.1/bits/move.h /usr/include/c++/15.2.1/type_traits \
+ /usr/include/c++/15.2.1/cstdint \
  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/libc-header-start.h \
  /usr/include/bits/types.h /usr/include/bits/typesizes.h \
  /usr/include/bits/time64.h /usr/include/bits/wchar.h \
  /usr/include/bits/stdint-intn.h /usr/include/bits/stdint-uintn.h \
- /usr/include/bits/stdint-least.h /usr/include/assert.h \
+ /usr/include/bits/stdint-least.h /usr/include/qt6/QtCore/qobject.h \
+ /usr/include/qt6/QtCore/qobjectdefs.h \
+ /usr/include/qt6/QtCore/qnamespace.h /usr/include/qt6/QtCore/qglobal.h \
+ /usr/include/c++/15.2.1/cstddef \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h \
+ /usr/include/c++/15.2.1/utility \
+ /usr/include/c++/15.2.1/bits/stl_relops.h \
+ /usr/include/c++/15.2.1/bits/stl_pair.h \
+ /usr/include/c++/15.2.1/bits/utility.h \
+ /usr/include/c++/15.2.1/initializer_list /usr/include/assert.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdbool.h \
  /usr/include/qt6/QtCore/qtcoreglobal.h \
  /usr/include/qt6/QtCore/qtversionchecks.h \
@@ -67,8 +72,7 @@ CMakeFiles/qt_test.dir/SinGenerator.cc.o: \
  /usr/include/c++/15.2.1/bits/algorithmfwd.h \
  /usr/include/c++/15.2.1/bits/stl_heap.h \
  /usr/include/c++/15.2.1/bits/uniform_int_dist.h \
- /usr/include/c++/15.2.1/bits/stl_tempbuf.h /usr/include/c++/15.2.1/new \
- /usr/include/c++/15.2.1/bits/exception.h \
+ /usr/include/c++/15.2.1/bits/stl_tempbuf.h \
  /usr/include/c++/15.2.1/bits/stl_construct.h \
  /usr/include/c++/15.2.1/cstdlib /usr/include/stdlib.h \
  /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
@@ -93,9 +97,7 @@ CMakeFiles/qt_test.dir/SinGenerator.cc.o: \
  /usr/include/qt6/QtCore/qatomic.h /usr/include/qt6/QtCore/qbasicatomic.h \
  /usr/include/qt6/QtCore/qatomic_cxx11.h \
  /usr/include/qt6/QtCore/qgenericatomic.h \
- /usr/include/qt6/QtCore/qyieldcpu.h /usr/include/c++/15.2.1/atomic \
- /usr/include/c++/15.2.1/bits/atomic_base.h \
- /usr/include/c++/15.2.1/bits/atomic_lockfree_defines.h \
+ /usr/include/qt6/QtCore/qyieldcpu.h \
  /usr/include/qt6/QtCore/qconstructormacros.h \
  /usr/include/qt6/QtCore/qdarwinhelpers.h \
  /usr/include/qt6/QtCore/qexceptionhandling.h \
@@ -144,7 +146,6 @@ CMakeFiles/qt_test.dir/SinGenerator.cc.o: \
  /usr/include/qt6/QtCore/qtresource.h \
  /usr/include/qt6/QtCore/qttranslation.h \
  /usr/include/qt6/QtCore/qversiontagging.h \
- /usr/include/qt6/QtCore/qstring.h /usr/include/qt6/QtCore/qchar.h \
  /usr/include/qt6/QtCore/qcompare.h \
  /usr/include/qt6/QtCore/qstdlibdetection.h \
  /usr/include/qt6/QtCore/qcomparehelpers.h \
@@ -173,32 +174,23 @@ CMakeFiles/qt_test.dir/SinGenerator.cc.o: \
  /usr/include/c++/15.2.1/bits/stl_vector.h \
  /usr/include/c++/15.2.1/bits/stl_bvector.h \
  /usr/include/c++/15.2.1/bits/vector.tcc /usr/include/c++/15.2.1/array \
- /usr/include/c++/15.2.1/compare /usr/include/qt6/QtCore/qstringview.h \
- /usr/include/qt6/QtCore/qbytearray.h /usr/include/qt6/QtCore/qrefcount.h \
- /usr/include/qt6/QtCore/qnamespace.h \
- /usr/include/qt6/QtCore/qtmetamacros.h \
- /usr/include/qt6/QtCore/qarraydata.h /usr/include/qt6/QtCore/qpair.h \
- /usr/include/string.h /usr/include/strings.h \
- /usr/include/qt6/QtCore/qarraydatapointer.h \
- /usr/include/qt6/QtCore/qarraydataops.h \
- /usr/include/qt6/QtCore/qcontainertools_impl.h \
- /usr/include/qt6/QtCore/qxptype_traits.h /usr/include/c++/15.2.1/cstring \
- /usr/include/c++/15.2.1/iterator \
- /usr/include/c++/15.2.1/bits/stream_iterator.h \
- /usr/include/c++/15.2.1/iosfwd /usr/include/c++/15.2.1/bits/stringfwd.h \
+ /usr/include/c++/15.2.1/compare /usr/include/qt6/QtCore/qtmetamacros.h \
+ /usr/include/qt6/QtCore/qobjectdefs_impl.h \
+ /usr/include/qt6/QtCore/qfunctionaltools_impl.h \
+ /usr/include/c++/15.2.1/memory \
+ /usr/include/c++/15.2.1/bits/stl_raw_storage_iter.h \
+ /usr/include/c++/15.2.1/bits/align.h \
+ /usr/include/c++/15.2.1/bits/unique_ptr.h \
+ /usr/include/c++/15.2.1/bits/shared_ptr.h /usr/include/c++/15.2.1/iosfwd \
+ /usr/include/c++/15.2.1/bits/stringfwd.h \
  /usr/include/c++/15.2.1/bits/postypes.h /usr/include/c++/15.2.1/cwchar \
  /usr/include/wchar.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h \
  /usr/include/bits/types/wint_t.h /usr/include/bits/types/mbstate_t.h \
  /usr/include/bits/types/__mbstate_t.h /usr/include/bits/types/__FILE.h \
  /usr/include/bits/types/FILE.h \
- /usr/include/c++/15.2.1/bits/streambuf_iterator.h \
- /usr/include/c++/15.2.1/streambuf \
- /usr/include/c++/15.2.1/bits/localefwd.h \
- /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++locale.h \
- /usr/include/c++/15.2.1/clocale /usr/include/locale.h \
- /usr/include/bits/locale.h /usr/include/c++/15.2.1/cctype \
- /usr/include/ctype.h /usr/include/c++/15.2.1/bits/ios_base.h \
+ /usr/include/c++/15.2.1/bits/shared_ptr_base.h \
+ /usr/include/c++/15.2.1/bits/allocated_ptr.h \
  /usr/include/c++/15.2.1/ext/atomicity.h \
  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
@@ -217,6 +209,28 @@ CMakeFiles/qt_test.dir/SinGenerator.cc.o: \
  /usr/include/bits/pthread_stack_min-dynamic.h \
  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/atomic_word.h \
  /usr/include/sys/single_threaded.h \
+ /usr/include/c++/15.2.1/ext/concurrence.h \
+ /usr/include/c++/15.2.1/bits/shared_ptr_atomic.h \
+ /usr/include/c++/15.2.1/backward/auto_ptr.h \
+ /usr/include/c++/15.2.1/pstl/glue_memory_defs.h \
+ /usr/include/qt6/QtCore/qstring.h /usr/include/qt6/QtCore/qchar.h \
+ /usr/include/qt6/QtCore/qstringview.h \
+ /usr/include/qt6/QtCore/qbytearray.h /usr/include/qt6/QtCore/qrefcount.h \
+ /usr/include/qt6/QtCore/qarraydata.h /usr/include/qt6/QtCore/qpair.h \
+ /usr/include/string.h /usr/include/strings.h \
+ /usr/include/qt6/QtCore/qarraydatapointer.h \
+ /usr/include/qt6/QtCore/qarraydataops.h \
+ /usr/include/qt6/QtCore/qcontainertools_impl.h \
+ /usr/include/qt6/QtCore/qxptype_traits.h /usr/include/c++/15.2.1/cstring \
+ /usr/include/c++/15.2.1/iterator \
+ /usr/include/c++/15.2.1/bits/stream_iterator.h \
+ /usr/include/c++/15.2.1/bits/streambuf_iterator.h \
+ /usr/include/c++/15.2.1/streambuf \
+ /usr/include/c++/15.2.1/bits/localefwd.h \
+ /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++locale.h \
+ /usr/include/c++/15.2.1/clocale /usr/include/locale.h \
+ /usr/include/bits/locale.h /usr/include/c++/15.2.1/cctype \
+ /usr/include/ctype.h /usr/include/c++/15.2.1/bits/ios_base.h \
  /usr/include/c++/15.2.1/bits/locale_classes.h \
  /usr/include/c++/15.2.1/string \
  /usr/include/c++/15.2.1/bits/char_traits.h \
@@ -242,17 +256,6 @@ CMakeFiles/qt_test.dir/SinGenerator.cc.o: \
  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/error_constants.h \
  /usr/include/c++/15.2.1/stdexcept \
  /usr/include/c++/15.2.1/bits/streambuf.tcc \
- /usr/include/c++/15.2.1/memory \
- /usr/include/c++/15.2.1/bits/stl_raw_storage_iter.h \
- /usr/include/c++/15.2.1/bits/align.h \
- /usr/include/c++/15.2.1/bits/unique_ptr.h \
- /usr/include/c++/15.2.1/bits/shared_ptr.h \
- /usr/include/c++/15.2.1/bits/shared_ptr_base.h \
- /usr/include/c++/15.2.1/bits/allocated_ptr.h \
- /usr/include/c++/15.2.1/ext/concurrence.h \
- /usr/include/c++/15.2.1/bits/shared_ptr_atomic.h \
- /usr/include/c++/15.2.1/backward/auto_ptr.h \
- /usr/include/c++/15.2.1/pstl/glue_memory_defs.h \
  /usr/include/qt6/QtCore/q20functional.h \
  /usr/include/qt6/QtCore/q20memory.h /usr/include/qt6/QtCore/q17memory.h \
  /usr/include/qt6/QtCore/qbytearrayalgorithms.h \
@@ -267,12 +270,6 @@ CMakeFiles/qt_test.dir/SinGenerator.cc.o: \
  /usr/include/qt6/QtCore/qstringbuilder.h \
  /usr/include/qt6/QtCore/qstringconverter.h \
  /usr/include/qt6/QtCore/qstringconverter_base.h \
- /usr/include/qt6/QtCore/qcoreevent.h \
- /usr/include/qt6/QtCore/qbasictimer.h \
- /usr/include/qt6/QtCore/qabstracteventdispatcher.h \
- /usr/include/qt6/QtCore/qobject.h /usr/include/qt6/QtCore/qobjectdefs.h \
- /usr/include/qt6/QtCore/qobjectdefs_impl.h \
- /usr/include/qt6/QtCore/qfunctionaltools_impl.h \
  /usr/include/qt6/QtCore/qlist.h /usr/include/qt6/QtCore/qhashfunctions.h \
  /usr/include/c++/15.2.1/numeric \
  /usr/include/c++/15.2.1/bits/stl_numeric.h \
@@ -301,55 +298,17 @@ CMakeFiles/qt_test.dir/SinGenerator.cc.o: \
  /usr/include/qt6/QtCore/qobject_impl.h \
  /usr/include/qt6/QtCore/qbindingstorage.h /usr/include/c++/15.2.1/chrono \
  /usr/include/c++/15.2.1/bits/chrono.h /usr/include/c++/15.2.1/ratio \
- /usr/include/c++/15.2.1/ctime /usr/include/qt6/QtCore/qeventloop.h \
- /usr/include/qt6/QtCore/qdeadlinetimer.h \
- /usr/include/qt6/QtCore/qnativeinterface.h \
- /usr/include/qt6/QtCore/qcoreapplication_platform.h \
- /usr/include/qt6/QtCore/qcoreapplication.h \
- /usr/include/qt6/QtCore/qcontainerfwd.h \
- /usr/include/qt6/QtCore/qthread.h /usr/include/c++/15.2.1/future \
+ /usr/include/c++/15.2.1/ctime /usr/include/qt6/QtCore/qthread.h \
+ /usr/include/qt6/QtCore/qobject.h \
+ /usr/include/qt6/QtCore/qdeadlinetimer.h /usr/include/c++/15.2.1/future \
  /usr/include/c++/15.2.1/mutex /usr/include/c++/15.2.1/bits/std_mutex.h \
  /usr/include/c++/15.2.1/bits/unique_lock.h \
  /usr/include/c++/15.2.1/condition_variable \
  /usr/include/c++/15.2.1/bits/atomic_futex.h \
  /usr/include/c++/15.2.1/bits/std_thread.h \
  /usr/include/qt6/QtCore/qtmetamacros.h \
- /home/sgdsg/projects/qt_test/SignalConfig.h \
- /usr/include/c++/15.2.1/iostream /usr/include/c++/15.2.1/ostream \
- /usr/include/c++/15.2.1/bits/ostream.h /usr/include/c++/15.2.1/ios \
- /usr/include/c++/15.2.1/bits/basic_ios.h \
- /usr/include/c++/15.2.1/bits/locale_facets.h \
- /usr/include/c++/15.2.1/cwctype /usr/include/wctype.h \
- /usr/include/bits/wctype-wchar.h \
- /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/ctype_base.h \
- /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/ctype_inline.h \
- /usr/include/c++/15.2.1/bits/locale_facets.tcc \
- /usr/include/c++/15.2.1/bits/basic_ios.tcc \
- /usr/include/c++/15.2.1/bits/ostream.tcc /usr/include/c++/15.2.1/istream \
- /usr/include/c++/15.2.1/bits/istream.tcc /usr/include/json/json.h \
- /usr/include/json/config.h /usr/include/c++/15.2.1/sstream \
- /usr/include/c++/15.2.1/bits/sstream.tcc /usr/include/json/allocator.h \
- /usr/include/json/version.h /usr/include/json/json_features.h \
- /usr/include/json/forwards.h /usr/include/json/reader.h \
- /usr/include/json/value.h /usr/include/c++/15.2.1/deque \
- /usr/include/c++/15.2.1/bits/stl_deque.h \
- /usr/include/c++/15.2.1/bits/deque.tcc /usr/include/c++/15.2.1/stack \
- /usr/include/c++/15.2.1/bits/stl_stack.h /usr/include/json/writer.h \
- /usr/include/qt6/QtCore/qlogging.h /usr/include/qt6/QtCore/qobject.h \
- /usr/include/c++/15.2.1/thread \
- /usr/include/c++/15.2.1/bits/this_thread_sleep.h \
- /usr/include/qt6/QtCore/QJsonDocument \
- /usr/include/qt6/QtCore/qjsondocument.h \
- /usr/include/qt6/QtCore/qjsonparseerror.h \
- /usr/include/qt6/QtCore/QJsonObject \
- /usr/include/qt6/QtCore/qjsonobject.h \
- /usr/include/qt6/QtCore/qjsonvalue.h \
- /usr/include/qt6/QtCore/qcborvalue.h \
- /usr/include/qt6/QtCore/qcborcommon.h \
- /usr/include/qt6/QtCore/qshareddata.h \
- /usr/include/qt6/QtCore/qdatetime.h /usr/include/qt6/QtCore/qcalendar.h \
- /usr/include/qt6/QtCore/qlocale.h /usr/include/qt6/QtCore/qvariant.h \
- /usr/include/qt6/QtCore/qdebug.h /usr/include/qt6/QtCore/qtextstream.h \
+ /usr/include/qt6/QtCore/qvariant.h /usr/include/qt6/QtCore/qdebug.h \
+ /usr/include/qt6/QtCore/qtextstream.h \
  /usr/include/qt6/QtCore/qcontiguouscache.h \
  /usr/include/c++/15.2.1/climits \
  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/limits.h \
@@ -358,6 +317,7 @@ CMakeFiles/qt_test.dir/SinGenerator.cc.o: \
  /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
  /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h \
  /usr/include/bits/uio_lim.h /usr/include/qt6/QtCore/qsharedpointer.h \
+ /usr/include/qt6/QtCore/qshareddata.h \
  /usr/include/qt6/QtCore/qsharedpointer_impl.h \
  /usr/include/c++/15.2.1/set /usr/include/c++/15.2.1/bits/stl_set.h \
  /usr/include/c++/15.2.1/bits/stl_multiset.h \
@@ -369,10 +329,54 @@ CMakeFiles/qt_test.dir/SinGenerator.cc.o: \
  /usr/include/qt6/QtCore/qvarlengtharray.h \
  /usr/include/qt6/QtCore/qalloc.h /usr/include/qt6/QtCore/q23utility.h \
  /usr/include/qt6/QtCore/q20utility.h \
+ /usr/include/qt6/QtCore/QCoreApplication \
+ /usr/include/qt6/QtCore/qcoreapplication.h \
+ /usr/include/qt6/QtCore/qcoreevent.h \
+ /usr/include/qt6/QtCore/qbasictimer.h \
+ /usr/include/qt6/QtCore/qabstracteventdispatcher.h \
+ /usr/include/qt6/QtCore/qeventloop.h \
+ /usr/include/qt6/QtCore/qnativeinterface.h \
+ /usr/include/qt6/QtCore/qcoreapplication_platform.h \
+ /usr/include/qt6/QtCore/qcoreapplication.h \
+ /usr/include/qt6/QtCore/qcontainerfwd.h \
+ /home/sgdsg/projects/qt_test/SignalManager.h \
+ /usr/include/c++/15.2.1/complex /usr/include/c++/15.2.1/sstream \
+ /usr/include/c++/15.2.1/istream /usr/include/c++/15.2.1/ios \
+ /usr/include/c++/15.2.1/bits/basic_ios.h \
+ /usr/include/c++/15.2.1/bits/locale_facets.h \
+ /usr/include/c++/15.2.1/cwctype /usr/include/wctype.h \
+ /usr/include/bits/wctype-wchar.h \
+ /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/ctype_base.h \
+ /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/ctype_inline.h \
+ /usr/include/c++/15.2.1/bits/locale_facets.tcc \
+ /usr/include/c++/15.2.1/bits/basic_ios.tcc \
+ /usr/include/c++/15.2.1/ostream /usr/include/c++/15.2.1/bits/ostream.h \
+ /usr/include/c++/15.2.1/bits/ostream.tcc \
+ /usr/include/c++/15.2.1/bits/istream.tcc \
+ /usr/include/c++/15.2.1/bits/sstream.tcc /usr/include/fftw3.h \
+ /usr/include/qt6/QtCore/QVector /usr/include/qt6/QtCore/qvector.h \
+ /home/sgdsg/projects/qt_test/ConfigManager.h \
+ /usr/include/c++/15.2.1/iostream /usr/include/json/json.h \
+ /usr/include/json/config.h /usr/include/json/allocator.h \
+ /usr/include/json/version.h /usr/include/json/json_features.h \
+ /usr/include/json/forwards.h /usr/include/json/reader.h \
+ /usr/include/json/value.h /usr/include/c++/15.2.1/deque \
+ /usr/include/c++/15.2.1/bits/stl_deque.h \
+ /usr/include/c++/15.2.1/bits/deque.tcc /usr/include/c++/15.2.1/stack \
+ /usr/include/c++/15.2.1/bits/stl_stack.h /usr/include/json/writer.h \
+ /usr/include/qt6/QtCore/qlogging.h /usr/include/c++/15.2.1/thread \
+ /usr/include/c++/15.2.1/bits/this_thread_sleep.h \
+ /usr/include/qt6/QtCore/QJsonDocument \
+ /usr/include/qt6/QtCore/qjsondocument.h \
+ /usr/include/qt6/QtCore/qjsonparseerror.h \
+ /usr/include/qt6/QtCore/QJsonObject \
+ /usr/include/qt6/QtCore/qjsonobject.h \
+ /usr/include/qt6/QtCore/qjsonvalue.h \
+ /usr/include/qt6/QtCore/qcborvalue.h \
+ /usr/include/qt6/QtCore/qcborcommon.h \
+ /usr/include/qt6/QtCore/qdatetime.h /usr/include/qt6/QtCore/qcalendar.h \
+ /usr/include/qt6/QtCore/qlocale.h /usr/include/qt6/QtCore/qvariant.h \
  /usr/include/qt6/QtCore/qregularexpression.h \
  /usr/include/qt6/QtCore/qurl.h /usr/include/qt6/QtCore/quuid.h \
  /usr/include/qt6/QtCore/qendian.h \
- /usr/include/qt6/QtCore/qjsondocument.h \
- /home/sgdsg/projects/qt_test/SignalManager.h \
- /usr/include/c++/15.2.1/complex /usr/include/fftw3.h \
- /usr/include/qt6/QtCore/QVector /usr/include/qt6/QtCore/qvector.h
+ /usr/include/qt6/QtCore/qjsondocument.h
